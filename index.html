@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/index-style.css">
+        <title>--S1--</title>
+    </head>
+    <body>
+        <header>
+            <h1>Mi pagina web</h1>
+            <p>Bienvenido a mi pagina web</p>
+            <nav>
+    |           <a href="index.html">Inicio</a>
+                <a href="pages/Proyectos.html">Proyectos</a>
+                <a href="pages/contactos.html">Contacto</a>
+
+            </nav>
+        </header>
+        <main> 
+        <section class="presentacion">
+            <h2>Inicio</h2>
+            <p>Aqui comienza el contenido principal de la pagina</p>
+            <!--agui se unionn ambos seccion-->
+            <h2>Sobre mi</h2>
+            <p style="color:rgb(237, 221, 201);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, blanditiis, deserunt animi quidem deleniti quisquam assumenda excepturi natus similique earum, nisi eos! Aliquid blanditiis nisi laudantium mollitia saepe ipsum pariatur.</p>
+            
+            <img src="img/x.jpeg"  >
+        </section>
+        <section class="habilidades">
+                <h2>Mis habilidades</h2>
+                <p class="descripcion">
+                    Estas son algunas de las areas en las que tengo experiencia.
+                </p>
+                <div class="contenedor-cards">
+                    <div class="card">
+                        <h3>Frontend</h3>
+                        <p>Dominio en la creacion de interface web modernas  usando HTML, CSS, JS. Asi como tecnologias de apoyo como BOOTSTRAP, fontawesome, sweetAlert, etc.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Backend</h3>
+                        <p>Dominio en el desarrollo backend utilizando Python, Java y JavaScript, implementando la lógica de negocio, manejo de rutas, validaciones y conexión con servicios externos. Experiencia en la creación de APIs y estructuración de proyectos escalables.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Base de datos</h3>
+                        <p>Conocimientos a nivel junior en bases de datos relacionales y no relacionales, manejo de consultas SQL, diseño básico de esquemas, normalización y operaciones CRUD. Familiaridad con gestores como MySQL, PostgreSQL y MongoDB.</p>
+                    </div>
+                    <div class="card">
+                        <h3>GitHub/GIT</h3>
+                        <p>Manejo de control de versiones con Git, incluyendo creación de ramas, gestión de commits, resolución de conflictos y fusiones. Uso de GitHub para la colaboración en proyectos, control de cambios, documentación y despliegue de repositorios.</p>
+                    </div>
+                </div>
+        </section>
+        <section class="flip-section">
+            <h2>Mis certificados</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nulla dolorem minus, culpa libero officia eum cumque cum a error. Unde porro, dolorum illum itaque suscipit temporibus laborum numquam iste!</p>
+            <div class="flip-contenedor">
+                <!--del div de abajo es desde donde comienza para hacer una card para cada cetificado -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Certificado en .....</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <img src="img/w.jpeg" alt="certificado de python">
+                        </div>
+                    </div>
+                </div   >
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Certificado en .....</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <img src="img/q.jpeg" alt="certificado de java">
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Certificado en .....</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <img src="img/w.jpeg" alt="certificado de html/css">
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Certificado en .....</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <img src="img/q.jpeg" alt="certificado de javascript">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </main>
+        <footer>
+            <div class="contenedor-footer">
+                <div class="footer-contacto">
+                    <h3>Contacto</h3>
+                    <p>Email: 05116@senati.pe</p>
+                    <p>Telefono: +51 952......</p>
+                    <p>Ubicacion: Lima. Peru</p>
+                </div>
+                <div class="footer-nav">
+                    <h3>Navegacion</h3>
+                    <ul>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">Linkedin</a></li>
+                        <li><a href="">GitHub</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2025 Carlos Roque, Todos los derechos reservados..</p>
+
+            </div>
+
+        </footer>
+        <!--modal-->
+            <div id="imgModal" class="modal">
+                <span class="cerrar">&times;</span>
+                <img class="modal-contenedor" id="modalImg">
+            </div>
+        <!--scripts-->
+        <script src="js/script.js"></script>
+    </body>
+</html>

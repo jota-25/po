@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">">
+    <title>contactos</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="../pages/Proyectos.html">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="../pages/contactos.html">Contactos</a>
+                        
+                    </ul>
+                </div>
+        </div>
+    </nav>
+    <p>Esta es la pagina de contacto</p>
+    <a class="btn btn-primary" onclick="mostrarMensaje()">Click me</a>
+    <a class="btn btn-primary" onclick="sumar()">La suma</a>
+    <a class="btn btn-primary" onclick="cambiarColor()">color</a>
+    <P id="texto"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quam recusandae architecto culpa qui ad eum nesciunt voluptatibus laborum ea! Quod fugiat error dolore facilis quasi voluptatum culpa blanditiis dignissimos?</P>
+   
+    <section>
+        <h2>Contacto</h2>
+        <p>Complete el siguiente formulario para enviarme un mensaje</p>
+        <div class="container my-5 ">  
+            <section id="contacto" class="card p-4 shadow-sm">      
+                <form id="contacto-form">
+                    <label for="Nombre">Nombre:</label><br><!--si se quiere un salto de linea se porne <br>-->
+                    <input type="text" id="nombre" name="nombre" class="form-control" required>
+                    <br>
+                    <label for="email">Email:</label><br><!--si se quiere un salto de linea se porne <br>-->
+                    <input type="email" id="email" name="email" class="form-control" required>
+                    <br>
+                    <label for="asunto">Asunto:</label><br><!--si se quiere un salto de linea se porne <br>-->
+                    <input type="text" id="asunto" name="asunto" class="form-control" required>
+                    <br>
+                    <label for="Mensaje">Mensaje:</label><br><!--si se quiere un salto de linea se porne <br>-->
+                    <textarea id="mensaje" name="mensaje" rows="5" cols="30" class="form-control" required></textarea>
+
+                    <!--see viene el botoonnnn que emocion "sarcasmo, las clases mas aburridas e incluso muy lentas creo que estos recien emppiezan a agarrar una compu"-->
+                    <br>
+                    <input type="submit" value="Enviar" class="btn btn-warning" >
+                </form>
+            </section>
+        </div>
+    </section>
+    <footer>
+        <script type="module" src="../js/cxn.js"></script>
+        <script src="../js/script.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </footer>
+</body>
+</html>
